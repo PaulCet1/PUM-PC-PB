@@ -43,7 +43,7 @@ public class menu_activity extends AppCompatActivity {
 
        });
 
-       maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa", Toast.LENGTH_SHORT).show();
+       maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa nie jest jeszcze wspierana!", Toast.LENGTH_SHORT).show();
 
        });
 
