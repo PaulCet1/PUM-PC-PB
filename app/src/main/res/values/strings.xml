@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sport Activity</string>
+    <string name="text1">Użyj biometrii do uruchomienia aplikacji</string>
+    <string name="todo">TODO</string>
+    <string name="text2">Odblokuj</string>
+    <string name="war1">Użyj czytnika lini papilarnych</string>
+    <string name="welcome">Witam Cię!</string>
+    <string name="logo">Sport Activity</string>
+    <string name="button_1">Licznik kroków</string>
+    <string name="button_2">Pokaż na mapie</string>
+    <string name="button_3">Pokaż statystyki</string>
+    <string name="button_4">Spalone kalorie</string>
+    <string name="button_5">Rozpocznij trening</string>
+    <string name="access_token">sk.eyJ1IjoicGFibG9lY2VrIiwiYSI6ImNrdnI1ZHVtcjA0bDMydm05anM5dWs4bGgifQ.aLaCd4XEN81Ryl75wYnbfQ</string>
+
+
+</resources>
