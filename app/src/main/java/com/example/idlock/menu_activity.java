@@ -44,7 +44,7 @@ public class menu_activity extends AppCompatActivity {
        });
 
        maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa", Toast.LENGTH_SHORT).show();
-           openactivitymap();
+
        });
 
         stats.setOnClickListener(v -> Toast.makeText(getApplicationContext(), "Funkcja statystyki nie jest jeszcze wspierana!", Toast.LENGTH_SHORT).show());
@@ -77,10 +77,7 @@ public class menu_activity extends AppCompatActivity {
 
         }
 
-    public void openactivitymap(){
-        Intent intentmap = new Intent(this, maps.class);
-        startActivity(intentmap);
-    }
+
 
     private void openautoRotate() {
         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.google.com")));

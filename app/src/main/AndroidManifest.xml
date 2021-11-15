@@ -15,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Idlock">
         <activity
-            android:name=".maps"
-            android:exported="false" />
-        <activity
             android:name=".menu_activity"
             android:exported="false" />
         <activity
