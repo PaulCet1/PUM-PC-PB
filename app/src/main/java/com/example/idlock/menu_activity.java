@@ -43,7 +43,9 @@ public class menu_activity extends AppCompatActivity {
 
        });
 
-       maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa nie jest jeszcze wspierana!", Toast.LENGTH_SHORT).show();
+       maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa!", Toast.LENGTH_SHORT).show();
+
+       openmap();
 
        });
 
@@ -67,7 +69,7 @@ public class menu_activity extends AppCompatActivity {
         });
         set4.setOnClickListener(v -> {
             Toast.makeText(getApplicationContext(), "Autoobracanie ekranu", Toast.LENGTH_SHORT).show();
-            openautoRotate();
+            openbrowser();
 
         });
 
@@ -77,9 +79,14 @@ public class menu_activity extends AppCompatActivity {
 
         }
 
+    public void openmap(){
+        Intent intentmap = new Intent(this, mapactivity.class);
+        startActivity(intentmap);
+    }
 
 
-    private void openautoRotate() {
+
+    private void openbrowser() {
         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://www.google.com")));
     }
 

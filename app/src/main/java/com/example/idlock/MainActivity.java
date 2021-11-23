@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(getApplicationContext(), "Autoryzacja przebiegła pomyślnie!", Toast.LENGTH_SHORT).show();
 
-                setContentView(R.layout.activity_menu);
+
 
                 openactivity3();
 

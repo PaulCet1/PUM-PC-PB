@@ -36,9 +36,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation 'androidx.biometric:biometric:1.0.1' //biblioteka biometric 1.0.1 wykorzystana do odblokowywania aplikacji
+    implementation 'androidx.biometric:biometric:1.1.0' //biblioteka biometric 1.0.1 wykorzystana do odblokowywania aplikacji
 
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:6.0.1'
-    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.5.0'
+    implementation "com.google.android.gms:play-services-maps:18.0.0"
 
 }
