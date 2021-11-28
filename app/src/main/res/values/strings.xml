@@ -13,5 +13,23 @@
     <string name="button_5">Rozpocznij trening</string>
     <string name="access_token">sk.eyJ1IjoicGFibG9lY2VrIiwiYSI6ImNrdnI1ZHVtcjA0bDMydm05anM5dWs4bGgifQ.aLaCd4XEN81Ryl75wYnbfQ</string>
 
+    <string name="start_count">Start</string>
+    <string name="track_steps">Śledź aktywność</string>
+    <string name="help">Pomoc</string>
+    <string name="game_exit">Wyjście</string>
+    <string name="counter">Licznik</string>
+    <string name="inch_step">Przelicznik</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="back">Wróć</string>
+    <string name="clear">Wyczyść dane</string>
+    <string name="inch_value">10</string>
+    <string name="calories">Sp.kalorie</string>
+    <string name="avg_speed">Śr.prędkość</string>
+    <string name="time">Czas</string>
+    <string name="step_count">L.kroków</string>
+    <string name="app_help">Autorzy:  Paweł Cetnarowski, Piotr Bożek
+    </string>
+
 
 </resources>

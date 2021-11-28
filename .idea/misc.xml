@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PUM-PC-PB_2/app/src/main/res/layout/activity_help.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PUM-PC-PB_2/app/src/main/res/layout/activity_main.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PUM-PC-PB_2/app/src/main/res/layout/report.xml" value="0.32518115942028986" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/PUM-PC-PB_2/app/src/main/res/layout/track_steps.xml" value="0.22282608695652173" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PUM-PC-PB/app/src/main/res/layout/activity_mapactivity.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PUM-PC-PB/app/src/main/res/layout/activity_menu.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/idlock/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21851851851851853" />
