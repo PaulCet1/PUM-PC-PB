@@ -28,14 +28,14 @@ import androidx.core.content.ContextCompat;
 
 import java.util.concurrent.Executor;
 
-public class MainActivity extends AppCompatActivity {
+public class biometriclock extends AppCompatActivity {
 
 
     @SuppressLint({"WrongViewCast", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.biometric_activity);
 
 
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Executor executor = ContextCompat.getMainExecutor(this);
-        BiometricPrompt biometricPrompt = new BiometricPrompt(MainActivity.this, executor, new BiometricPrompt.AuthenticationCallback() {
+        BiometricPrompt biometricPrompt = new BiometricPrompt(biometriclock.this, executor, new BiometricPrompt.AuthenticationCallback() {
             @Override
             public void onAuthenticationError(int errorCode, @NonNull CharSequence errString) {
                 super.onAuthenticationError(errorCode, errString);
