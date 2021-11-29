@@ -23,8 +23,8 @@
         android:id="@+id/button_start"
         android:layout_width="131dp"
         android:layout_height="55dp"
-        android:layout_alignStart="@+id/button_track"
         android:layout_below="@+id/image_walk"
+        android:layout_alignStart="@+id/button_track"
         android:layout_marginTop="25dp"
         android:background="@color/colorPrimary"
         android:text="@string/start_count" />

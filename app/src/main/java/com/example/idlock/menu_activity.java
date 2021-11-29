@@ -6,9 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class menu_activity extends AppCompatActivity {
@@ -26,6 +24,7 @@ public class menu_activity extends AppCompatActivity {
         Button maps = findViewById(R.id.button_mapa);
         Button stats = findViewById(R.id.button_stats);
         Button burned_calories = findViewById(R.id.burned_calories);
+        Button opentraining = findViewById(R.id.opentraining);
 
         FloatingActionButton set1 = findViewById(R.id.sett_1);
         FloatingActionButton set2 = findViewById(R.id.sett_2);
@@ -42,6 +41,11 @@ public class menu_activity extends AppCompatActivity {
 
 
        });
+        opentraining.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa!", Toast.LENGTH_SHORT).show();
+
+            opentraining();
+
+        });
 
        maps.setOnClickListener(v -> {Toast.makeText(getApplicationContext(), "Mapa!", Toast.LENGTH_SHORT).show();
 
@@ -78,6 +82,10 @@ public class menu_activity extends AppCompatActivity {
 
 
         }
+    public void opentraining(){
+        Intent intenttraining = new Intent(this, MainActivity.class);
+        startActivity(intenttraining);
+    }
 
     public void openmap(){
         Intent intentmap = new Intent(this, mapactivity.class);
